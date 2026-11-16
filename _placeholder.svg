@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f0f0f0"/>
+  <rect x="10" y="10" width="380" height="280" fill="#e0e0e0" rx="8"/>
+  <text x="200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#888">
+    Image Not Available
+  </text>
+  <text x="200" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#aaa">
+    (External resource)
+  </text>
+  <path d="M175 100 L200 80 L225 100 L215 100 L215 120 L185 120 L185 100 Z" fill="#ccc"/>
+  <circle cx="200" cy="70" r="8" fill="#ccc"/>
+</svg>

@@ -1,0 +1,56 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><html><head>
+      <style id="offline-fixes">
+        /* Lazy-loaded images */
+        img[data-src], img[data-image] { opacity: 1 !important; }
+        .lazyload, .lazyloading { opacity: 1 !important; }
+        .offline-fallback-img { display: block !important; }
+        
+        /* Animation classes that hide content until JS runs */
+        [data-animation-role].animation-loaded { opacity: 1 !important; }
+        .preFade.animation-loaded, .preSlide.animation-loaded { 
+          opacity: 1 !important; 
+          transform: none !important; 
+        }
+        
+        /* Squarespace images */
+        .sqs-image img, .content-fill img { opacity: 1 !important; }
+        .fluid-image-container img { opacity: 1 !important; }
+        
+        /* Embeds */
+        iframe { max-width: 100% !important; }
+        .sqs-block-video, .sqs-block-embed, .embed-block { overflow: visible !important; }
+        .video-player iframe, .sqs-video-wrapper iframe { display: block !important; opacity: 1 !important; }
+        
+        /* Smooth scrolling for anchor links */
+        html { scroll-behavior: smooth; }
+        
+        /* Wix hidden-during-prewarmup elements */
+        .hidden-during-prewarmup { opacity: 1 !important; visibility: visible !important; }
+      </style>
+    </head><body><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/">
+<channel>
+	<title>
+	Comments on: IMG_1733_NB SLSC flyer	</title>
+	<atom:link href="index.html" rel="self" type="application/rss+xml">
+	<link>https://bondibanter.com/the-hole-in-the-ground-at-north-bondi/img_1733_nb-slsc-flyer/
+	<description></description>
+	<lastbuilddate>Sun, 28 Oct 2012 12:30:15 +0000</lastbuilddate>
+	<sy:updateperiod>
+	hourly	</sy:updateperiod>
+	<sy:updatefrequency>
+	1	</sy:updatefrequency>
+	<generator>https://wordpress.org/?v=5.3.27</generator>
+</atom:link></channel>
+</rss>
+
+      <script id="offline-scroll">
+        document.addEventListener('click', function(e) {
+          var link = e.target.closest('a[href^="#"]');
+          if (!link) return;
+          var id = link.getAttribute('href').slice(1);
+          if (!id) { window.scrollTo({top:0,behavior:'smooth'}); e.preventDefault(); return; }
+          var target = document.getElementById(id) || document.querySelector('[data-anchor="'+id+'"]');
+          if (target) { target.scrollIntoView({behavior:'smooth'}); e.preventDefault(); }
+        });
+      </script>
+    </body></html>

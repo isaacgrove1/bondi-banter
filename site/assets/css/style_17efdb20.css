@@ -1,0 +1,29 @@
+div.ilsb_parent {margin:0px auto 0px 0px;}
+div.ilsb-child {position:absolute; display:none; margin:0px; padding:0px 0px 6px 0px;}
+div.ilsb-child span {padding:0px;}
+
+.ilsb {padding:3px 22px 3px 25px; line-height:26px; background-position:0 50%; background-repeat:no-repeat;}
+.ilsb-share {background-image:url(../images/share_0659a141.png);}
+.ilsb-subscribe {background-image:url(../images/subscribe_ec946e44.png);}
+.ilsb-blinklist {background-image:url(../images/blinklist_8f87f5fe.png);}
+.ilsb-bloglines {background-image:url(../images/bloglines_fc5e2101.png);}
+.ilsb-blogmarks {background-image:url(../images/blogmarks_4dd021a8.png);}
+.ilsb-digg {background-image:url(../images/digg_f4141226.png);}
+.ilsb-delicious {background-image:url(../images/delicious_de1738f6.png);}
+.ilsb-facebook {background-image:url(../images/facebook_de0cd2fd.png);}
+.ilsb-flickr {background-image:url(../images/flickr_8ed73cb7.png);}
+.ilsb-furl {background-image:url(../images/furl_fb1a0d65.png);}
+.ilsb-magnolia {background-image:url(../images/magnolia_c5cba0d2.png);}
+.ilsb-newsvine {background-image:url(../images/newsvine_ddf0e306.png);}
+.ilsb-reddit {background-image:url(../images/reddit_11160957.png);}
+.ilsb-stumbleupon {background-image:url(../images/stumbleupon_ec4fd607.png);}
+.ilsb-technorati {background-image:url(../images/technorati_7408b454.png);}
+
+.ilsb-arial {font-family:Arial, Helvetica, sans-serif;}
+.ilsb-century {font-family:'Century Gothic', 'Lucida Grande', sans-serif;}
+.ilsb-courier {font-family:'Courier New', Courier, monospace;}
+.ilsb-georgia {font-family:Georgia, 'Times New Roman', Times, serif;}
+.ilsb-lucida {font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;}
+.ilsb-tahoma {font-family:Tahoma, Verdana, Helvetica, sans-serif;}
+.ilsb-times {font-family:'Times New Roman', Times, serif;}
+.ilsb-verdana {font-family:Verdana, Arial, Helvetica, sans-serif;}
